@@ -1,0 +1,52 @@
+.caja{
+    &__turnos{
+        text-align: center;
+        font-family: sans-serif;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20%;
+
+            p{
+                padding: 1%;
+                text-align: center;
+            }
+            h3{
+                color: blue;
+                font-size: 2rem;
+            }
+    }
+
+    &__wp{
+        display: flex;
+        flex-direction: row;
+        margin: 3%;
+        background-color: white;
+        border: 2px solid white;
+        padding: 3%;
+        border-radius: 10%;
+        max-width: 100%;
+
+            img{
+                width: 20%;
+            }
+            h3{
+                color: black;
+            }
+    }
+
+    &__normas{
+        display: flex;
+        flex-direction: column;
+        margin: 3%;
+        background-color: white;
+        border: 2px solid white;
+        padding: 3%;
+        border-radius: 10%;
+        max-width: 100%;
+
+            h3{
+                color: black;
+            }
+    }
+}

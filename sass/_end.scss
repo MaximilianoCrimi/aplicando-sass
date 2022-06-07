@@ -1,0 +1,22 @@
+.form{
+    &__text{
+        text-align: center;
+        margin-top: 20%;
+            
+            h4{
+                color: blue;
+                font-size: 180%;
+            }
+            p{
+                font-size: 120%;
+            }
+    }
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+        p{
+            color: white;
+        }
+}

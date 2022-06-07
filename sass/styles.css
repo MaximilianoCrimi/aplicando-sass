@@ -1,0 +1,177 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/* estilos del index */
+.header__logo {
+  width: 40%;
+}
+
+.header .header__title {
+  border: 3px solid black;
+}
+
+.header .header__title h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: cadetblue;
+  padding: 5%;
+}
+
+.header nav {
+  font-size: 130%;
+}
+
+.box__article {
+  border: 1px solid black;
+  padding: 2%;
+  background-color: cadetblue;
+  color: azure;
+  font-family: sans-serif;
+  text-align: center;
+  height: 100%;
+  margin-top: 10%;
+}
+
+.box__article2 {
+  border: 1px solid black;
+  padding: 2%;
+  background-color: #3737ce;
+  color: azure;
+  font-family: sans-serif;
+  text-align: center;
+  height: 100%;
+  margin-top: 10%;
+}
+
+.caja__turnos {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20%;
+}
+
+.caja__turnos p {
+  padding: 1%;
+  text-align: center;
+}
+
+.caja__turnos h3 {
+  color: blue;
+  font-size: 2rem;
+}
+
+.caja__wp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 3%;
+  background-color: white;
+  border: 2px solid white;
+  padding: 3%;
+  border-radius: 10%;
+  max-width: 100%;
+}
+
+.caja__wp img {
+  width: 20%;
+}
+
+.caja__wp h3 {
+  color: black;
+}
+
+.caja__normas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 3%;
+  background-color: white;
+  border: 2px solid white;
+  padding: 3%;
+  border-radius: 10%;
+  max-width: 100%;
+}
+
+.caja__normas h3 {
+  color: black;
+}
+
+.sociales {
+  margin-top: 20%;
+  margin-bottom: 20%;
+  background-image: url("https://imagenes.lainformacion.com/files/twitter_thumbnail/uploads/imagenes/2020/10/05/firma-contrato-alquiler.png");
+  background-size: cover;
+  padding: 10%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 83%;
+}
+
+.sociales h3 {
+  font-size: 180%;
+}
+
+.sociales p {
+  font-size: 120%;
+}
+
+.form__text {
+  text-align: center;
+  margin-top: 20%;
+}
+
+.form__text h4 {
+  color: blue;
+  font-size: 180%;
+}
+
+.form__text p {
+  font-size: 120%;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+}
+
+.footer p {
+  color: white;
+}
+
+@media (min-width: 992px) {
+  .header .header__title h1 {
+    font-size: 4rem;
+  }
+}
+
+/* fin de estilos del index */
+/*# sourceMappingURL=styles.css.map */

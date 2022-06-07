@@ -1,0 +1,21 @@
+.header{
+
+    &__logo{
+        width: 40%;
+    }
+
+    & &__title{
+        border: 3px solid black;
+            h1{
+                text-align: center;
+                font-size: 2rem;
+                color: cadetblue;
+                padding: 5%;
+            }
+    }
+
+    nav{
+        font-size: 130%;
+    }
+
+}

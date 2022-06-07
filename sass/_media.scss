@@ -1,0 +1,10 @@
+@media (min-width: 992px){
+
+    .header{
+        & &__title{
+            h1{
+                font-size: 4rem;
+            }
+        }
+    }
+}

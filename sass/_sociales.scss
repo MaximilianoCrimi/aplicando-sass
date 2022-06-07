@@ -1,0 +1,20 @@
+.sociales{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    background-image: url("https://imagenes.lainformacion.com/files/twitter_thumbnail/uploads/imagenes/2020/10/05/firma-contrato-alquiler.png");
+    background-size:cover;
+    padding: 10%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:83%;
+
+        h3{
+            font-size: 180%;
+        }
+        p{
+            font-size: 120%;
+        }
+}

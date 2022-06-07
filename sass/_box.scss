@@ -1,0 +1,24 @@
+.box{
+    &__article{
+     border: 1px solid black;
+     padding: 2%;
+     background-color: cadetblue;
+     color: azure;
+     font-family: sans-serif;
+     text-align: center;
+     height: 100%;
+     margin-top: 10%;
+ }
+
+ &__article2{
+     border: 1px solid black;
+     padding: 2%;
+     background-color: rgb(55, 55, 206);
+     color: azure;
+     font-family: sans-serif;
+     text-align: center;
+     height: 100%;
+     margin-top: 10%;
+
+ }
+}
