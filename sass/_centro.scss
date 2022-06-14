@@ -1,8 +1,10 @@
+@import 'mapa';
+
 .centro{
 
     &__art{
 
-        background-color: whitesmoke;
+        background-color: map-get($color, 1);
         padding: 5%;
         font-family: sans-serif;
         display: flex;
@@ -22,13 +24,7 @@
     }
 
     &__art2{
-        background-color: whitesmoke;
-        padding: 5%;
-        font-family: sans-serif;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin-top: 5%;
+        @extend .centro__art;
 
         h2{
             font-size: 3rem;

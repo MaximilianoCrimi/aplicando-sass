@@ -1,8 +1,10 @@
+@import 'mapa';
+
 .box{
     &__article{
      border: 1px solid black;
      padding: 2%;
-     background-color: cadetblue;
+     background-color: map-get($color, 2);
      color: azure;
      font-family: sans-serif;
      text-align: center;
@@ -11,14 +13,10 @@
  }
 
  &__article2{
-     border: 1px solid black;
-     padding: 2%;
-     background-color: rgb(55, 55, 206);
-     color: azure;
-     font-family: sans-serif;
-     text-align: center;
-     height: 100%;
-     margin-top: 10%;
-
+    @extend .box__article;
+    background-color: map-get($color, 3);
  }
 }
+
+
+
