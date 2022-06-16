@@ -3,15 +3,13 @@
 .centro{
 
     &__art{
-
-        background-color: map-get($color, 1);
+        background-color: whitesmoke;
         padding: 5%;
         font-family: sans-serif;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        margin-top: 5%;
-
+        margin-top: 20%;
             h2{
                 font-size: 3rem;
                 margin-bottom: 10%;
