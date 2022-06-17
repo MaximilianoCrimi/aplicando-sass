@@ -13,7 +13,7 @@
 
 .header .header__title h1 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 50px;
   color: cadetblue;
   padding: 5%;
 }
@@ -242,17 +242,15 @@
 }
 
 .cards {
+  margin-top: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-left: 10%;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=styles.css.map */
