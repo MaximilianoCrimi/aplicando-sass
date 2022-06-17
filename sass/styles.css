@@ -202,6 +202,18 @@
   }
 }
 
+@media (max-width: 576px) {
+  .cards {
+    padding-left: 20%;
+  }
+}
+
+@media (max-width: 410px) {
+  .cards {
+    padding-left: 10%;
+  }
+}
+
 .acordeon {
   margin-top: 10%;
 }
@@ -252,5 +264,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 /*# sourceMappingURL=styles.css.map */
