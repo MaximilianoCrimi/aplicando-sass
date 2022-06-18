@@ -1,0 +1,38 @@
+.contacto{
+    &__instalaciones{
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+            h2{
+                margin-bottom: 10%;
+                font-size: 3rem;
+                font-family: sans-serif;
+            }
+            iframe{
+                height:300px;
+                width: auto;
+                margin-bottom: 10%;
+            }
+    }
+
+    &__mapa{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+            h2{
+                font-size: 3rem;
+                font-family: sans-serif;
+                text-align: center;
+                margin-bottom: 10%;
+            }
+
+            iframe{
+                margin-bottom: 5%;
+                height: 300px;
+                width: auto;
+            }
+
+    }
+}

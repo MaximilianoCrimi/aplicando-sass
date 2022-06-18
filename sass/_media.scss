@@ -7,6 +7,34 @@
             }
         }
     }
+
+    .contacto{
+        
+       & &__instalaciones{
+           
+            h2{
+                font-size: 4rem;
+            }
+
+            iframe{
+                height: 500px;
+                width: auto;
+            }
+        }
+
+        & &__mapa{
+
+            h2{
+                font-size: 4rem;
+            }
+            
+            iframe{
+                height: 500px;
+                width: auto;
+            }
+        }
+    }
+
 }
 
 
@@ -15,7 +43,7 @@
 
     .cards{
         padding-left: 20%;
-    }   
+    }
 }
 
 

@@ -200,6 +200,20 @@
   .header .header__title h1 {
     font-size: 4rem;
   }
+  .contacto .contacto__instalaciones h2 {
+    font-size: 4rem;
+  }
+  .contacto .contacto__instalaciones iframe {
+    height: 500px;
+    width: auto;
+  }
+  .contacto .contacto__mapa h2 {
+    font-size: 4rem;
+  }
+  .contacto .contacto__mapa iframe {
+    height: 500px;
+    width: auto;
+  }
 }
 
 @media (max-width: 576px) {
@@ -227,16 +241,15 @@
 
 .form {
   margin-top: 10%;
-  max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .form h2 {
@@ -266,5 +279,79 @@
           align-items: center;
   -ms-flex-item-align: center;
       align-self: center;
+}
+
+.cards__1:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.cards__2:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.cards__3:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.contacto__instalaciones {
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.contacto__instalaciones h2 {
+  margin-bottom: 10%;
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+
+.contacto__instalaciones iframe {
+  height: 300px;
+  width: auto;
+  margin-bottom: 10%;
+}
+
+.contacto__mapa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contacto__mapa h2 {
+  font-size: 3rem;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.contacto__mapa iframe {
+  margin-bottom: 5%;
+  height: 300px;
+  width: auto;
 }
 /*# sourceMappingURL=styles.css.map */
