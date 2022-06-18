@@ -174,11 +174,11 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin-top: 20%;
+  min-height: 100%;
 }
 
 .centro__art h2, .centro__art2 h2 {
   font-size: 3rem;
-  margin-bottom: 10%;
   text-align: center;
 }
 
@@ -188,7 +188,6 @@
 
 .centro__art2 h2 {
   font-size: 3rem;
-  margin-bottom: 10%;
   text-align: center;
 }
 
@@ -213,6 +212,9 @@
   .contacto .contacto__mapa iframe {
     height: 500px;
     width: auto;
+  }
+  .acordeon {
+    max-width: 50%;
   }
 }
 
@@ -318,6 +320,7 @@
 }
 
 .contacto__instalaciones h2 {
+  border: 1px  black solid;
   margin-bottom: 10%;
   font-size: 3rem;
   font-family: sans-serif;
