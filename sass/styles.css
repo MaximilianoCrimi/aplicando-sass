@@ -1,6 +1,8 @@
 * {
   margin: 0%;
   padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .header__logo {
@@ -35,6 +37,10 @@
 
 .box__article2 {
   background-color: #3737ce;
+}
+
+.caja {
+  height: 83%;
 }
 
 .caja__turnos {
@@ -248,6 +254,13 @@
   font-family: sans-serif;
   text-align: center;
   margin-bottom: 5%;
+  color: white;
+}
+
+.bgi {
+  background-image: url(https://fondosmil.com/fondo/65206.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .form {
