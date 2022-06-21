@@ -1,9 +1,11 @@
 .cards{
-    margin-top: 15%;
+    margin-top: 1%;
     display: flex;
     justify-content: center;
     align-items: center;
     align-self: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
 
     &__1:hover{
         transform: scale(1.1);
@@ -19,4 +21,9 @@
         transform:scale(1.1);
         transition: 2s;
     }
+}
+
+.bgicards{
+    background-image:linear-gradient(to bottom, white, white, white, blue, white, white, white) ;
+
 }

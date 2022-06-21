@@ -11,12 +11,15 @@
 
 .header .header__title {
   border: 3px solid black;
+  background-image: url(https://cdn.pixabay.com/photo/2015/08/23/09/19/banner-902580_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header .header__title h1 {
   text-align: center;
   font-size: 50px;
-  color: cadetblue;
+  color: whitesmoke;
   padding: 5%;
 }
 
@@ -145,7 +148,7 @@
 
 .form__text {
   text-align: center;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .form__text h4 {
@@ -166,9 +169,12 @@
   color: white;
 }
 
-.centro {
-  margin-top: 10%;
+.bgi2 {
   background-image: url(https://riodm.com/wp-content/uploads/2019/08/shutterstock_1054661900.jpg);
+  border: solid 2px black;
+}
+
+.centro {
   background-position: 100%;
 }
 
@@ -246,15 +252,16 @@
 }
 
 .acordeon {
-  margin-top: 10%;
+  margin-top: 1%;
 }
 
-.acordeon__frecuentes h2 {
+.acordeon__frecuentes h3 {
   font-size: 2rem;
   font-family: sans-serif;
   text-align: center;
   margin-bottom: 5%;
   color: white;
+  padding-top: 10%;
 }
 
 .bgi {
@@ -263,7 +270,7 @@
   background-size: cover;
 }
 
-.form {
+.form2 {
   margin-top: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -276,14 +283,15 @@
           align-items: center;
 }
 
-.form h2 {
+.form2 h2 {
   font-size: 2rem;
   font-family: sans-serif;
   text-align: center;
   margin-bottom: 5%;
+  color: white;
 }
 
-.form button {
+.form2 button {
   padding: 1%;
   border: 1px solid black;
   border-radius: 5%;
@@ -291,7 +299,7 @@
 }
 
 .cards {
-  margin-top: 15%;
+  margin-top: 1%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -303,6 +311,8 @@
           align-items: center;
   -ms-flex-item-align: center;
       align-self: center;
+  padding-top: 8%;
+  padding-bottom: 8%;
 }
 
 .cards__1:hover {
@@ -324,6 +334,11 @@
           transform: scale(1.1);
   -webkit-transition: 2s;
   transition: 2s;
+}
+
+.bgicards {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(white), color-stop(white), color-stop(blue), color-stop(white), color-stop(white), to(white));
+  background-image: linear-gradient(to bottom, white, white, white, blue, white, white, white);
 }
 
 .contacto__instalaciones {

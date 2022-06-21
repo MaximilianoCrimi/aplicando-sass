@@ -1,8 +1,11 @@
 @import 'mapa';
 
+.bgi2{
+    background-image:url(https://riodm.com/wp-content/uploads/2019/08/shutterstock_1054661900.jpg);
+    border: solid 2px black;
+}
+
 .centro{
-    margin-top: 10%;
-    background-image: url(https://riodm.com/wp-content/uploads/2019/08/shutterstock_1054661900.jpg);
     background-position: 100%;
     &__art{
         background-color: whitesmoke;
