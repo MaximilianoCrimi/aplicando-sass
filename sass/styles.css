@@ -88,7 +88,8 @@
 
 .caja__wp img {
   width: 20%;
-  height: auto;
+  height: 20%;
+  padding-top: 10%;
 }
 
 .caja__wp h3 {
@@ -163,6 +164,8 @@
 .footer {
   background-color: black;
   text-align: center;
+  height: 100%;
+  margin-bottom: -10%;
 }
 
 .footer p {
@@ -179,7 +182,7 @@
 }
 
 .centro__art, .centro__art2 {
-  background-color: whitesmoke;
+  background-color: lightskyblue;
   padding: 5%;
   font-family: sans-serif;
   display: -webkit-box;
@@ -237,11 +240,17 @@
   .acordeon {
     max-width: 50%;
   }
+  .caja .caja__wp img {
+    padding: 0%;
+  }
 }
 
 @media (max-width: 576px) {
   .cards {
     padding-left: 20%;
+  }
+  .caja .caja__wp img {
+    padding: 0%;
   }
 }
 
@@ -271,7 +280,6 @@
 }
 
 .form2 {
-  margin-top: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -295,6 +303,10 @@
   padding: 1%;
   border: 1px solid black;
   border-radius: 5%;
+  margin-bottom: 5%;
+}
+
+.form button {
   margin-bottom: 5%;
 }
 
@@ -337,8 +349,8 @@
 }
 
 .bgicards {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(white), color-stop(white), color-stop(blue), color-stop(white), color-stop(white), to(white));
-  background-image: linear-gradient(to bottom, white, white, white, blue, white, white, white);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3563a2), color-stop(white), color-stop(#3563a2), color-stop(white), to(#3563a2));
+  background-image: linear-gradient(to bottom, #3563a2, white, #3563a2, white, #3563a2);
 }
 
 .contacto__instalaciones {
@@ -357,7 +369,6 @@
 }
 
 .contacto__instalaciones h2 {
-  border: 1px  black solid;
   margin-bottom: 10%;
   font-size: 3rem;
   font-family: sans-serif;

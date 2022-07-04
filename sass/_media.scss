@@ -39,6 +39,15 @@
         max-width: 50%;
     }
 
+    .caja{
+
+        & &__wp{
+            img{
+                padding:0%;
+            }
+         }
+    }
+
 }
 
 
@@ -47,6 +56,15 @@
 
     .cards{
         padding-left: 20%;
+    }
+
+    .caja{
+
+        & &__wp{
+            img{
+                padding:0%;
+            }
+         }
     }
 }
 

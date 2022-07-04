@@ -1,7 +1,6 @@
 @import 'mixin';
 
 .form2{
-    margin-top: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,4 +15,10 @@
         button{
             @include boton;
         }
+}
+
+.form{
+    button{
+        margin-bottom: 5%;
+    }
 }
